@@ -14,6 +14,7 @@
 		<?php
 			wp_nav_menu( array(
 				'theme_location'    => 'gnb',
+				'menu_class'        => 'list-inline'
 			) );
 		?>
 		</div><!-- .menu -->
