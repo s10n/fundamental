@@ -15,6 +15,3 @@ function akaiv_setup() {
 	show_admin_bar(false);
 }
 add_action( 'after_setup_theme', 'akaiv_setup' );
-
-// 커스텀 템플릿태그
-require get_template_directory() . '/inc/template-tags.php';

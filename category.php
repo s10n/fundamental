@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 
-<h1 class="archive-title"><?php akaiv_archive_title(); ?></h1>
+<h1 class="archive-title"><?php single_cat_title(); ?></h1>
 <ul>
 <?php
 	while ( have_posts() ) : the_post();
