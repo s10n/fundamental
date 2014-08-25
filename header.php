@@ -9,7 +9,9 @@
 <body <?php body_class(); ?>>
 <div class="container">
 	<div class="site-header">
-		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+		<h1 class="site-title">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+		</h1>
 		<div class="menu">
 		<?php
 			wp_nav_menu( array(
